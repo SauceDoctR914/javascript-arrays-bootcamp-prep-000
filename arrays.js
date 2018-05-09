@@ -14,17 +14,17 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   array.shift();
   return array;
 }
-function removeElementFromBeginningOfArray(array, element){
-array.slice(element);
+function removeElementFromBeginningOfArray(array){
+array.slice(1);
 return array;
 }
 
-function destructivelyRemoveElementFromEndOfArray (array, element) {
-  array.pop(element);
+function destructivelyRemoveElementFromEndOfArray (array) {
+  array.pop();
   return array;
 }
 function removeElementFromEndOfArray (array) {
-  array.slice
+  array.slice(0, array.length - 1);
+  return array
 }
-}
-}
+
