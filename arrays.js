@@ -18,4 +18,13 @@ function removeElementFromBeginningOfArray(array, element){
 array.slice(element);
 return array;
 }
+
+function destructivelyRemoveElementFromEndOfArray (array, element) {
+  array.pop(element);
+  return array;
+}
+function removeElementFromEndOfArray (array, element) {
+  
+}
+}
 }
